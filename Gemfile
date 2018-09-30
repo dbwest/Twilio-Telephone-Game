@@ -12,7 +12,7 @@ group :production do
   gem 'pg'
 end
 
-gem 'heroku'
+gem 'heroku', '>= 3.99.4'
 
 gem 'twilio-ruby'
 
